@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\BOTTemplate\\BOT\\Chatbot.csproj": {}
+    "C:\\Users\\Aluno\\Source\\Repos\\templatebotunoeste\\Chatbot.csproj": {}
   },
   "projects": {
-    "D:\\BOTTemplate\\BOT\\Chatbot.csproj": {
+    "C:\\Users\\Aluno\\Source\\Repos\\templatebotunoeste\\Chatbot.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\BOTTemplate\\BOT\\Chatbot.csproj",
+        "projectUniqueName": "C:\\Users\\Aluno\\Source\\Repos\\templatebotunoeste\\Chatbot.csproj",
         "projectName": "Chatbot",
-        "projectPath": "D:\\BOTTemplate\\BOT\\Chatbot.csproj",
+        "projectPath": "C:\\Users\\Aluno\\Source\\Repos\\templatebotunoeste\\Chatbot.csproj",
         "packagesPath": "C:\\Users\\Aluno\\.nuget\\packages\\",
-        "outputPath": "D:\\BOTTemplate\\BOT\\obj\\",
+        "outputPath": "C:\\Users\\Aluno\\Source\\Repos\\templatebotunoeste\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
