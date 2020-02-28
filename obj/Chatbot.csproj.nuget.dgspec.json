@@ -1,23 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Aluno\\Source\\Repos\\templatebotunoeste\\Chatbot.csproj": {}
+    "C:\\Users\\Jean Felipe\\Source\\Repos\\templatebotunoeste\\Chatbot.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Aluno\\Source\\Repos\\templatebotunoeste\\Chatbot.csproj": {
+    "C:\\Users\\Jean Felipe\\Source\\Repos\\templatebotunoeste\\Chatbot.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Aluno\\Source\\Repos\\templatebotunoeste\\Chatbot.csproj",
+        "projectUniqueName": "C:\\Users\\Jean Felipe\\Source\\Repos\\templatebotunoeste\\Chatbot.csproj",
         "projectName": "Chatbot",
-        "projectPath": "C:\\Users\\Aluno\\Source\\Repos\\templatebotunoeste\\Chatbot.csproj",
-        "packagesPath": "C:\\Users\\Aluno\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Aluno\\Source\\Repos\\templatebotunoeste\\obj\\",
+        "projectPath": "C:\\Users\\Jean Felipe\\Source\\Repos\\templatebotunoeste\\Chatbot.csproj",
+        "packagesPath": "C:\\Users\\Jean Felipe\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Jean Felipe\\Source\\Repos\\templatebotunoeste\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Aluno\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Jean Felipe\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -58,7 +55,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
         }
       }
     }

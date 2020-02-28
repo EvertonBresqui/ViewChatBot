@@ -135,7 +135,7 @@ var BOT = {
 
     //Processa o retorno da API e adiciona ao chat.
     addAgentText: function (obj) {
-
+        console.log(obj)
         var textOk = "";
         var redirectTo = "";
         var imageURL = "";
