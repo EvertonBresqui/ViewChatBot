@@ -28,7 +28,5 @@ namespace Chatbot.Controllers
 
             return View();
         }
-
-
     }
 }

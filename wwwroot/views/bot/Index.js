@@ -40,6 +40,10 @@ var BOT = {
         }
     },
 
+    Gravar: function () {
+        document.getElementById("query").value = "inscrever";
+        BOT.submitText();
+    },
     //Prepara o texto do usuário para envio a API
     submitText: function () {
 
