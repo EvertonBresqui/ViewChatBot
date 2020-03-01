@@ -44,6 +44,11 @@ var BOT = {
         document.getElementById("query").value = "inscrever";
         BOT.submitText();
     },
+    InfCurso: function (curso, url) {
+        window.open(url, 'curso', true);
+        document.getElementById("query").value = curso;
+        BOT.submitText();
+    },
     //Prepara o texto do usuário para envio a API
     submitText: function () {
 
