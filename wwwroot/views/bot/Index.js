@@ -39,7 +39,37 @@ var BOT = {
                 
         }
     },
-
+    Menu: function (op) {
+        switch (op) {
+            case 1: BOT.ObterDadosCadastrais(); break;
+            case 2: BOT.ObterResultadoVestibular(); break;
+            case 3: BOT.NumeroAlunosMatriculadosCurso(); break;
+            case 4: BOT.SobreUnoeste(); break;
+            case 5: BOT.QuaisCursos(); break;
+        }
+    },
+    ObterDadosCadastrais: function () {
+        document.getElementById("query").value = "Dados cadastrais";
+        BOT.submitText();
+    },
+    ObterResultadoVestibular: function () {
+        document.getElementById("query").value = "Resultado vestibular";
+        BOT.submitText();
+    },
+    NumeroAlunosMatriculadosCurso: function () {
+        document.getElementById("query").value = "Número de matriculados";
+        BOT.submitText();
+    },
+    SobreUnoeste: function () {
+        window.open('https://www.unoeste.br/aunoeste', 'sobreunoeste', true);
+        document.getElementById("query").value = "Sobre a Unoeste";
+        BOT.submitText();
+    },
+    QuaisCursos: function () {
+        window.open('https://www.unoeste.br/graduacao', 'sobreunoeste', true);
+        document.getElementById("query").value = "Cursos";
+        BOT.submitText();
+    },
     Gravar: function () {
         document.getElementById("query").value = "inscrever";
         BOT.submitText();
