@@ -62,13 +62,9 @@ var BOT = {
     },
     SobreUnoeste: function () {
         window.open('https://www.unoeste.br/aunoeste', 'sobreunoeste', true);
-        document.getElementById("query").value = "Sobre a Unoeste";
-        BOT.submitText();
     },
     QuaisCursos: function () {
         window.open('https://www.unoeste.br/graduacao', 'sobreunoeste', true);
-        document.getElementById("query").value = "Cursos";
-        BOT.submitText();
     },
     Gravar: function () {
         document.getElementById("query").value = "inscrever";
