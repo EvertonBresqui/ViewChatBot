@@ -41,14 +41,13 @@ var BOT = {
     },
     Menu: function (op) {
         switch (op) {
-            case 1: BOT.NumeroAlunosMatriculadosCurso(); break;
+            case 1: BOT.Areacandidato(); break;
             case 2: BOT.SobreUnoeste(); break;
             case 3: BOT.QuaisCursos(); break;
         }
     },
-    ObterResultadoVestibular: function () {
+    Areacandidato: function () {
         window.open('https://www.unoeste.br/site/vestibular/inscricao/Autenticacao.aspx', 'sobreunoeste', true);
-        BOT.submitText();
     },
     SobreUnoeste: function () {
         window.open('https://www.unoeste.br/aunoeste', 'sobreunoeste', true);
