@@ -41,23 +41,13 @@ var BOT = {
     },
     Menu: function (op) {
         switch (op) {
-            case 1: BOT.ObterDadosCadastrais(); break;
-            case 2: BOT.ObterResultadoVestibular(); break;
-            case 3: BOT.NumeroAlunosMatriculadosCurso(); break;
-            case 4: BOT.SobreUnoeste(); break;
-            case 5: BOT.QuaisCursos(); break;
+            case 1: BOT.NumeroAlunosMatriculadosCurso(); break;
+            case 2: BOT.SobreUnoeste(); break;
+            case 3: BOT.QuaisCursos(); break;
         }
     },
-    ObterDadosCadastrais: function () {
-        document.getElementById("query").value = "Dados cadastrais";
-        BOT.submitText();
-    },
     ObterResultadoVestibular: function () {
-        document.getElementById("query").value = "Resultado vestibular";
-        BOT.submitText();
-    },
-    NumeroAlunosMatriculadosCurso: function () {
-        document.getElementById("query").value = "Número de matriculados";
+        window.open('https://www.unoeste.br/site/vestibular/inscricao/Autenticacao.aspx', 'sobreunoeste', true);
         BOT.submitText();
     },
     SobreUnoeste: function () {
